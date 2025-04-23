@@ -1,0 +1,40 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Orlov-Oleg-Igorevich/Set#readme",
+  "bugs": {
+    "url": "https://github.com/Orlov-Oleg-Igorevich/Set/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orlov-Oleg-Igorevich/Set.git"
+  },
+  "license": "ISC",
+  "author": "Oleg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "^9.25.1",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
